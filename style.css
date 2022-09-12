@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(214, 214, 214);
+    /* background-color: rgb(214, 214, 214); */
+    /* height:665px; */
+    background-image: url("imagenes/fondo.jpg");
+    /* background-size: 10rem; */
 }
 
 .container {
@@ -16,5 +19,11 @@ body {
 }
 
 #divlogin{
-    text-align: center;
+    /* text-align: center;
+    background-position: center;
+    background-size: 50%;
+    background-position-x: 500px; */
+    background-color: rgb(214, 214, 214);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
