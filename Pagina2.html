@@ -49,14 +49,16 @@
 
     <!-- Login -->
     <div class="container-sm" id="divlogin">
-          <h2>Conversor de moneda.</h2>
+          <h2>Conversor de moneda</h2>
             <p>
             <label>Euros</label>
             <input id="inputEuros" type="number" placeholder="Euros" oninput="eurosDolares(this.value)" onchange="eurosDolares(this.value)">
+            <button onclick="eurosDolares(inputEuros.value)">Euros a Dolares</button>
           </p>
           <p>
             <label>Dolares</label>
             <input id="inputDolares" type="number" placeholder="Dolares" oninput="dolaresEuros(this.value)" onchange="dolaresEuros(this.value)">
+            <button onclick="dolaresEuros(inputDolares.value)">Dolares a Euros</button>
           </p>
     </div>
 
